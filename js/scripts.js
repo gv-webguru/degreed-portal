@@ -29,7 +29,7 @@ dg(document).ready(function(){
         var cartCount = dg("#ctl00_ctl08_lnkCart").html();
         //console.log(cartURL);
         var replacementNav = "<span id=\"shoppingLink\"><a href=\""+cartURL+"\">Shopping Cart&nbsp;"+cartCount+"</a></span><span id=\"orderMGRLink\"><a href=\""+orderMGRURL+"\">Order</a></span>";
-        var newMenuBar = "<div id=\"logo-bar\"><div class=\"hover-text\" id=\"home-hover\"><p>Back to Home</p></div><div class=\"hover-text\" id=\"profile-hover\"><p>Your Profile</p></div><div class=\"hover-text\" id=\"logout-hover\"><p>Logout</p></div><div id=\"logo-wrapper\" class=\"new-menu-box\"><a id=\"home-link\" href=\""+homeURL+"\"><img src=\"https://mymulti-craft.com/degreed/images/logo-degreed.svg\" alt=\"Degreed\"></a></div><div id=\"username-wrapper\" class=\"new-menu-box\"><a href=\""+profileHref+"\">"+username+"</a></div><div id=\"profileBTN-wrapper\" class=\"new-menu-box\"><a id=\"profile-link\" href=\""+profileHref+"\"><img src=\"https://mymulti-craft.com/degreed/images/profile-btn.png\" alt=\"To your profile!\"></a></div><div id=\"logout-wrapper\" class=\"new-menu-box\"><a id=\"logout-link\" href=\""+logoutURL+"\"><img src=\"https://mymulti-craft.com/degreed/images/logout-btn.png\" alt=\"Logout\"></a></div></div>";
+        var newMenuBar = "<div id=\"logo-bar\"><div id=\"logo-wrapper\" class=\"new-menu-box\"><a id=\"home-link\" href=\""+homeURL+"\"><img src=\"https://mymulti-craft.com/degreed/images/logo-degreed.svg\" alt=\"Degreed\"></a><div class=\"hover-text\" id=\"home-hover\"><p>Back to Home</p></div></div><div id=\"username-wrapper\" class=\"new-menu-box\"><a href=\""+profileHref+"\">"+username+"</a></div><div id=\"profileBTN-wrapper\" class=\"new-menu-box\"><a id=\"profile-link\" href=\""+profileHref+"\"><img src=\"https://mymulti-craft.com/degreed/images/profile-btn.png\" alt=\"To your profile!\"></a><div class=\"hover-text\" id=\"profile-hover\"><p>Your Profile</p></div></div><div id=\"logout-wrapper\" class=\"new-menu-box\"><a id=\"logout-link\" href=\""+logoutURL+"\"><img src=\"https://mymulti-craft.com/degreed/images/logout-btn.png\" alt=\"Logout\"></a><div class=\"hover-text\" id=\"logout-hover\"><p>Logout</p></div></div></div>";
         //console.log("modifying menu.");
         dg(".NavTop > :first-child").addClass("mod-menu");
         dg(".mod-menu > :nth-child(4)").addClass("menu-ctl").attr("id","menu-controls");
@@ -39,6 +39,8 @@ dg(document).ready(function(){
         dg("#ctl00_ctl08_spUserName,#ctl00_ctl08_btnLogOut").hide();
         dg("#menu-controls").append(replacementNav);
         dg(".mod-menu").before(newMenuBar);
+        dg("#orderMGRLink a").html("Order History");
+        dg("#ctl00_ctl08_btnCatalog").html("Shop");
         dg("#ctl00_ctl08_pnlCart").remove();
         dg("#username-wrapper, #menu_ctl00_ctl08_ctl01_1").hover(function(){
             dg("#menu_ctl00_ctl08_ctl01_1").show();},function(){

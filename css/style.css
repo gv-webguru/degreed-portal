@@ -132,7 +132,7 @@ td.NavTop{
 
 
 span.spSearch input.TDSearchBox.CatalogSearchBox{
-    margin: 11px 550px;
+    margin: 11px 36%;
     width: 25%;
     height: 24px;
     border: none;
@@ -149,6 +149,7 @@ span.spSearch input.TDSearchBox.CatalogSearchBox{
 
 .NavTop div#logo-bar .new-menu-box{
     margin-left: 30px;
+    position:relative;
 }
 
 #shoppingLink a, #orderMGRLink a{
@@ -176,20 +177,21 @@ span.spSearch input.TDSearchBox.CatalogSearchBox{
     display: none;
     position:absolute;
     top:50px;
+    width:150px;
 }
 
-#logo-bar #home-hover{
-    left:70px;
+#logo-bar #home-hover p{
+    margin-top:-12px;
 }
-#logo-bar #profile-hover{
-    left:340px;
+/*#logo-bar #profile-hover{
+    left:312px;
 }
 #logo-bar #logout-hover{
-    left: 420px;
+    left: 389px;
 }
 #logo-bar .hover-text:hover{
     display: block;
-}
+}*/
 
 #menu_ctl00_ctl08_ctl00_2057228{
     top:18px!important;
@@ -204,15 +206,15 @@ span.spSearch input.TDSearchBox.CatalogSearchBox{
     left:290px!important;
 }
 #menu_ctl00_ctl08_ctl00_2445122{
-    top:42px!important;
+    top:18px!important;
     left:552px!important;
 }
 #menu_ctl00_ctl08_ctl00_2445120{
-    top:330px!important;
+    top:42px!important;
     left:552px!important;
 }
 #menu_ctl00_ctl08_ctl00_2445167{
-    top:92px!important;
+    top:69px!important;
     left:552px!important;
 }
 
@@ -360,7 +362,9 @@ table#ENUSmain.login-page-container #CtlFooter{
     margin:-50px auto;
 }
 
-
+.login-page-container #CtlLogIn div:nth-child(7){
+    margin:10px 16px !important;
+}
 
 .login-page-container div.ButtonRowClearR{
     width:400px;
@@ -478,10 +482,11 @@ div.lp-nav#nav-box-right{
     float:none;
 }
 
-/*.catalog-page-container #CtlBody .gridRow2Cols, .catalog-page-container #CtlBody .gridRow3Cols,.catalog-page-container #CtlBody .gridRow4Cols, .catalog-page-container #CtlBody .gridRow5Cols, .catalog-page-container #CtlBody .gridRow6Cols*/.catalog-page-container #CtlBody [class*="gridRow"]{
+.catalog-page-container #CtlBody [class*="gridRow"]{
     display:flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    margin-bottom:50px;
 }
 
 .catalog-page-container #CtlBody .gridItem{
@@ -491,7 +496,8 @@ div.lp-nav#nav-box-right{
 }
 
 .catalog-page-container #CtlBody .gridItem.pti-cc-folderGridItem{
-    margin:0 50px;
+    margin:0 25px;
+    width:250px;
 }
 
 .catalog-page-container #CtlBody .gridItem.pti-cc-productGridItem{
