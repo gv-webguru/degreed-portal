@@ -1,0 +1,178 @@
+/*Knockout Fonts*/
+@font-face{
+    font-family:'Knockout-JWL';
+    src:url('https://mymulti-craft.com/degreed/fonts/knockout/Knockout-HTF29-JuniorLiteweight.otf') format("opentype");
+}
+
+/*Sentinel Fonts*/
+@font-face{
+    font-family:'SentinelBlack';
+    src:url('https://mymulti-craft.com/degreed/fonts/sentinel/Sentinel-Black.otf') format("opentype");
+}
+@font-face{
+    font-family:'SentinelBlackItal';
+    src:url('https://mymulti-craft.com/degreed/fonts/sentinel/Sentinel-BlackItal.otf') format("opentype");
+}
+@font-face{
+    font-family:'SentinelBold';
+    src:url('https://mymulti-craft.com/degreed/fonts/sentinel/Sentinel-Bold.otf') format("opentype") format("opentype");
+}
+@font-face{
+    font-family:'SentinelBoldItal';
+    src:url('https://mymulti-craft.com/degreed/fonts/sentinel/Sentinel-BoldItal.otf') format("opentype");
+}
+@font-face{
+    font-family:'SentinelBook';
+    src:url('https://mymulti-craft.com/degreed/fonts/sentinel/Sentinel-Book.otf') format("opentype");
+}
+@font-face{
+    font-family:'SentinelBookItal';
+    src:url('https://mymulti-craft.com/degreed/fonts/sentinel/Sentinel-BookItal.otf') format("opentype");
+}
+@font-face{
+    font-family:'SentinelLight';
+    src:url('https://mymulti-craft.com/degreed/fonts/sentinel/Sentinel-Light.otf') format("opentype");
+}
+@font-face{
+    font-family:'SentinelLightItal';
+    src:url('https://mymulti-craft.com/degreed/fonts/sentinel/Sentinel-LightItal.otf') format("opentype");
+}
+@font-face{
+    font-family:'SentinelMedium';
+    src:url('https://mymulti-craft.com/degreed/fonts/sentinel/Sentinel-Medium.otf') format("opentype");
+}
+@font-face{
+    font-family:'SentinelMediumItal';
+    src:url('https://mymulti-craft.com/degreed/fonts/sentinel/Sentinel-MediumItal.otf') format("opentype");
+}
+@font-face{
+    font-family:'SentinelSemibold';
+    src:url('https://mymulti-craft.com/degreed/fonts/sentinel/Sentinel-Semibold.otf') format("opentype");
+}
+@font-face{
+    font-family:'SentinelSemiboldItal';
+    src:url('https://mymulti-craft.com/degreed/fonts/sentinel/Sentinel-SemiboldItal.otf') format("opentype");
+}
+
+
+/*Whitney Fonts*/
+@font-face{
+    font-family:'WhitneyBlack';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-Black.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyBlackCondensed';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-BlackCondensed.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyBlackItalic';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-BlackItalic.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyBlackItalicSC';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-BlackItalicSC.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyBlackSC';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-BlackSC.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyBold';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-Bold.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyBoldCondensed';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-BoldCondensed.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyBoldItalic';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-BoldItalic.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyBoldItalicSC';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-BoldItalicSC.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyBoldSC';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-BoldSC.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyBook';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-Book.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyBookCondensed';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-BookCondensed.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyBookItalic';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-BookItalic.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyBookItalicSC';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-BookItalicSC.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyBookSC';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-BookSC.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyLight';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-Light.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyLightCondensed';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-LightCondensed.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyLightItalic';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-LightItalic.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyLightItalicSC';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-LightItalicSC.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyLightSC';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-LightSC.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyMedium';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-Medium.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyMediumCondensed';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-MediumCondensed.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyMediumItalic';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-MediumItalic.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyMediumItalicSC';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-MediumItalicSC.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneyMediumSC';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-MediumSC.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneySemiBold';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-SemiBold.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneySemiBoldCondensed';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-SemiBoldCondensed.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneySemiBoldItalic';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-SemiBoldItalic.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneySemiBoldItalicSC';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-SemiBoldItalicSC.otf') format("opentype");
+}
+@font-face{
+    font-family:'WhitneySemiBoldSC';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-SemiBoldSC.otf') format("opentype");
+}

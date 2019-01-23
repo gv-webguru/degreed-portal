@@ -1,0 +1,21 @@
+/*Fonts sheet for the Degreed Marcom site*/
+
+@font-face{
+    font-family:'SentinelLight';
+    src:url('https://mymulti-craft.com/degreed/fonts/sentinel/Sentinel-Light.otf') format("opentype");
+}
+
+@font-face{
+    font-family:'WhitneyBold';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-Bold.otf') format("opentype");
+}
+
+@font-face{
+    font-family:'WhitneySemiBold';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-SemiBold.otf') format("opentype");
+}
+
+@font-face{
+    font-family:'WhitneyBook';
+    src:url('https://mymulti-craft.com/degreed/fonts/whitney/WhitneyHTF-Book.otf') format("opentype");
+}

@@ -1,0 +1,295 @@
+/*Custom styles for the Degreed Portal*/
+
+/*#### Global Style Rules #######*/
+body#PageType01, body#PageType01-elastic{
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    display:none;
+}
+
+
+#PageType01 table#ENUSmain{
+    width:100%;
+    background: transparent;
+    border:none;
+}
+
+table#CtlBody, table#CtlBrdCrm, div.CheckoutBreadCrumbs{
+    width:1440px;
+    margin:0 auto;
+}
+
+table#CtlBrdCrm{
+    float: none;
+}
+
+#CtlHead{
+    margin: 0 auto;
+}
+
+#CtlHead .NavTop{
+    background: transparent;
+}
+
+td#copyright{
+    display: none;
+}
+
+div.FooterBottom center{
+    display: none;
+}
+
+#CtlFooter{
+    background: transparent;
+}
+
+table#CtlFooter td{
+    height:50px;
+}
+
+td.NavTop{
+    background: transparent;
+    text-align: left;
+    padding: 0;
+    
+}
+
+.NavTop div.mod-menu{
+    width:1440px;
+    height:45px;
+    margin:0 auto;
+    background-color: #1a72b1;
+    color:#fff;
+    font-size:16px;
+    position:relative;
+}
+
+.NavTop div.mod-menu .NavTopDivider{
+    display: none;
+}
+
+.menu-ctl, .cart-ctl{
+    width:25%;
+    position:absolute;
+    top:12px;
+}
+
+#menu-controls{
+    
+    left:25px;
+}
+
+#cart-controls{
+    right:60px;
+}
+/*End - Global Style Rules*/
+/*##### Login Page Rules ########*/
+/*##### Defined by the class login-page-container ######*/
+table#ENUSmain.login-page-container #CtlHead{
+    margin-top:100px;
+}
+
+.login-page-container #CtlLogIn{
+    width:470px;
+    margin: -8px auto;
+    background-image:url(https://mymulti-craft.com/degreed/images/login-bg-tile.png);
+    background-repeat: repeat-y;
+    background-position: center top;
+    border:none;
+}
+
+.login-page-container #CtlLogIn h4{
+    display: none;
+}
+
+.login-page-container #CtlLogIn .CtlSearchGroup{
+    margin-top:8px !important;
+} 
+
+.login-page-container .CtlSearchGroup{
+    border:none;
+    background-color:transparent;
+    width:80%;
+}
+
+.login-page-container #input-wrapper{
+    width:80%;
+    margin:0 auto;
+}
+
+.login-page-container .login-label{
+    font-weight:bold;
+    font-size:16px;
+}
+
+.login-page-container .login-input{
+    font-size:16px;
+}
+
+.login-page-container .login-input input{
+    width:100%;
+    height:36px;
+    border-radius:5px;
+    border:solid 1px #ccc;
+    font-size:20px;
+}
+
+.login-page-container #username-row, #password-row{
+    margin-bottom: 24px;
+}
+
+.login-page-container #login-footer-wrapper{
+    width:470px;
+    margin:-50px auto;
+}
+
+
+
+.login-page-container div.ButtonRowClearR{
+    width:400px;
+    margin:0 auto;
+    text-align: center !important;
+}
+
+.login-page-container a#ctl00_content_Login_btnLogin{
+    background: none;
+    color:#fff;
+    font-weight:bold;
+    font-size:20px !important;
+    margin-right:150px;
+}
+
+.login-page-container a#ctl00_content_Login_btnLogin span{
+    background:none;
+    color:#fff;
+    font-weight:bold;
+    font-size:20px !important;
+    padding-left:0;
+}
+
+.login-page-container a#ctl00_content_Login_btnLogin{
+    
+    background-color: #01b3f1;
+    padding:15px 46px;
+    border-radius: 5px;
+}
+
+/*End - Login Page Rules*/
+/*##### Portal Home Splash Page Rules ######*/
+/*##### Defined by class: home-page-container #####*/
+
+.home-page-container #home-page{
+    width:1440px;
+    height:761px;
+    background-color:#fff;
+    margin:0 auto;
+}
+
+#lp-nav-container{
+    width:100%;
+    
+}
+
+div.lp-nav{
+    width:720px;
+    height: 195px;
+    display:inline;
+}
+
+
+/*End - Portal Home Splash Page Rules*/
+/*1234567890 Catalog Page Rules 0987654321*/
+/*1234567890 Defined by class: catalog-page-container 0987654321*/
+.catalog-page-container #CtlBody .gridRow4Cols, .catalog-page-container #CtlBody .gridRow3Cols, .catalog-page-container #CtlBody .gridRow2Cols{
+    width:1440px !important;
+    margin:15px auto 0;
+    float:none;
+}
+
+.catalog-page-container #CtlBody .gridItem{
+    background: transparent;
+    float:none;
+    display: inline-block;
+}
+
+.catalog-page-container #CtlBody .gridItem.pti-cc-productGridItem{
+    margin: 0 15px; 
+}
+
+.catalog-page-container #CtlBody .gridItem.pti-cc-productGridItem .gridItemImageTable{
+    margin-bottom: 15px;
+}
+
+.catalog-page-container #CtlBody .gridItem.pti-cc-productGridItem .gridItem_title{
+    width:66.66%;
+}
+    .catalog-page-container #CtlBody .gridItem.pti-cc-productGridItem .gridItem_title a.gridItem_title_ellipsis{
+        font-size:14px;
+        color:#000;
+}
+
+.catalog-page-container #CtlBody .gridItem.pti-cc-productGridItem .gridItem_action{
+    width:33.33%;
+}
+
+.catalog-page-container #CtlBody .gridItem.pti-cc-productGridItem div{
+    float:left;
+}
+
+.catalog-page-container #CtlBody .gridItem.pti-cc-folderGridItem .gridItem_title span.ellipsis_text{
+    display: none;
+}
+
+.catalog-page-container #CtlBody .gridItemImageCell{
+    border:none;
+}
+
+.catalog-page-container #CtlBody input.gridItem_thumb.screenshot.SampleImage{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.25);
+}
+
+.catalog-page-container #CtlBody a.pbtn.btn-s.btnAddToCart.gridActionButton.ButtonQuickOrderAddToCart, .catalog-page-container #CtlBody a.pbtn.btn-s.btnAddToCart.gridActionButton.ButtonQuickOrderAddToCart span, .catalog-page-container #CtlBody a.pbtn.btn-s.pbtn-icon-after-wrapper.ButtonQuickOrderDetails, .catalog-page-container #CtlBody a.pbtn.btn-s.pbtn-icon-after-wrapper.ButtonQuickOrderDetails span{
+    background:none;
+    color:#fff;
+    font-size: 14px;
+}
+
+.catalog-page-container #CtlBody a.pbtn.btn-s.btnAddToCart.gridActionButton.ButtonQuickOrderAddToCart:hover, .catalog-page-container #CtlBody a.pbtn.btn-s.btnAddToCart.gridActionButton.ButtonQuickOrderAddToCart span, .catalog-page-container #CtlBody a.pbtn.btn-s.pbtn-icon-after-wrapper.ButtonQuickOrderDetails:hover, .catalog-page-container #CtlBody a.pbtn.btn-s.pbtn-icon-after-wrapper.ButtonQuickOrderDetails span{
+    background-color:transparent;
+}
+
+.catalog-page-container #CtlBody a.pbtn.btn-s.btnAddToCart.gridActionButton.ButtonQuickOrderAddToCart,.catalog-page-container #CtlBody a.pbtn.btn-s.pbtn-icon-after-wrapper.ButtonQuickOrderDetails{
+    font-weight:bold;
+    background-color: #01b3f1;
+    padding:8px 16px;
+    
+}
+
+.catalog-page-container #CtlBody a.pbtn.btn-s.btnAddToCart.gridActionButton.ButtonQuickOrderAddToCart span,.catalog-page-container #CtlBody a.pbtn.btn-s.pbtn-icon-after-wrapper.ButtonQuickOrderDetails span{
+    padding-left: 0;
+}
+
+/*End - Catalog Page Rules*/
+/*abcdefghijk Subcategory/Productlisting Page Rules lmnopqrstuvwxyz*/
+/*abcdefghijk Defined by class: product-page-container lmnopqrstuvwxyz*/
+.product-page-container #CtlBody #CtlCart{
+    box-shadow:0 0 15px rgba(0,0,0,.25);
+    background-color:#fff;
+}
+
+.product-page-container #CtlBody #CtlCart .ColorPromptText, .BluePromptText, .QuickFillPrompt{
+    border-bottom:none;
+}
+
+.product-page-container #CtlBody #CtlCart #ctl00_content_CtlAddToCart_mHeaderNote_lblProductHeaderNote, .product-page-container #CtlBody #CtlCart #ctl00_content_CtlAddToCart_SkuPrototypeSelection_mSkuList_ctl00_lblChooseVersion{
+    color:#e76024;
+}
+/*End - Subcategory/Productlisting Page Rules*/
+/*qwertyuiop Product Page Rules asdfghjkl*/
+
+/*End - Product Page Rules*/
+/*zxcvbnm Shopping Cart Page Rules mnbvcxz*/
+
+/*End - Shopping Cart Page Rules*/

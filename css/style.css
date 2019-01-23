@@ -1,0 +1,1005 @@
+/*Custom styles for the Degreed Portal*/
+/*Importing Fonts*/
+@import url(https://mymulti-craft.com/degreed/css/marcom-fonts.css);
+
+body, p, h1, h2, h3, h4, h5, h6, div, span, td, li, ol, bl, input, select, textarea{
+    font-family: WhitneyBook, sans-serif;
+}
+
+table{
+    width:100%;
+}
+
+/*#### Global Style Rules #######*/
+body{
+    /*width:100% !important;*/
+}
+
+body#PageType01, body#PageType01-elastic{
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    display:none;
+}
+
+#ctl00_ctl08_pnlBudgetBalance{
+    position:absolute;
+    right:-270%;
+}
+
+#ctl00_ctl08_lblCurrentBudgetBalance{
+    margin-right:1em;
+}
+
+#PageType01 table#ENUSmain{
+    width:100%;
+    background: transparent;
+    border:none;
+}
+
+table#CtlBody, table#CtlBrdCrm, div.CheckoutBreadCrumbs{
+    max-width:1440px;/*changed to max-width from width*/
+    margin:20px auto 0 !important;
+}
+
+table#CtlBrdCrm{
+    float: none;
+}
+
+#CtlHead{
+    margin: 0 auto;
+}
+
+#CtlHead .NavTop{
+    background: transparent;
+}
+
+td#copyright{
+    display: none;
+}
+
+div.FooterBottom center{
+    display: none;
+}
+
+#CtlFooter{
+    background: transparent;
+}
+
+table#CtlFooter td{
+    height:50px;
+}
+
+td.NavTop{
+    background: transparent;
+    text-align: left;
+    padding: 0;
+    
+}
+
+.NavTop div.mod-menu{
+    /*width:1440px;*/
+    height:45px;
+    margin:0 auto;
+    background-color: #1a72b1;
+    color:#fff;
+    font-size:16px;
+    position:relative;
+}
+
+.NavTop div#logo-bar{
+    width:100%; /*width:1440px;*/
+    height:75px;
+    margin:0 auto;
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+}
+
+.NavTop div#logo-bar #logo-wrapper img{
+    width:150px;
+}
+
+.NavTop div.mod-menu .NavTopDivider{
+    display: none;
+}
+
+.menu-ctl, .cart-ctl{
+    width:25%;
+    position:absolute;
+    top:12px;
+}
+
+#menu-controls{
+    left:25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#cart-controls{
+    right:60px;
+}
+
+#ctl00_ctl08_btnCatalog, #ctl00_ctl08_btnLogOut, #ctl00_ctl08_lnkCartText, #ctl00_ctl08_lnkCart{
+    color:#fff;
+    font-family:WhitneySemiBold, sans-serif;
+    /*font-weight:bold;*/
+}
+
+.menuItemText>a.itemTitle{
+    font-family: WhitneyBook,sans-serif;
+}
+
+
+span.spSearch input.TDSearchBox.CatalogSearchBox{
+    margin: 11px 550px;
+    width: 25%;
+    height: 24px;
+    border: none;
+    border-radius: 12px;
+    background-color:#3e88bd;
+    background-image: url(https://mymulti-craft.com/degreed/images/search-glass.png);
+    background-repeat: no-repeat;
+    background-position: 98%;
+    color:#fff;
+    padding-left:10px;
+    font-size:14px;
+    
+}
+
+.NavTop div#logo-bar .new-menu-box{
+    margin-left: 30px;
+}
+
+#shoppingLink a, #orderMGRLink a{
+    font-weight:bold;
+    color:#a5bfd2;
+}
+
+#username-wrapper a{
+    font-size: 16px;
+    font-family: WhitneyBold, sans-serif;
+    font-weight: bold;
+    color:#1a72b1;
+}
+
+.menu{
+    top:-44px;
+    left:180px;
+}
+
+#ENUSmain #CtlFooter{
+    display:none;
+}
+
+#logo-bar .hover-text{
+    display: none;
+    position:absolute;
+    top:50px;
+}
+
+#logo-bar #home-hover{
+    left:70px;
+}
+#logo-bar #profile-hover{
+    left:340px;
+}
+#logo-bar #logout-hover{
+    left: 420px;
+}
+#logo-bar .hover-text:hover{
+    display: block;
+}
+
+#menu_ctl00_ctl08_ctl00_2057228{
+    top:18px!important;
+    left:290px!important;
+}
+#menu_ctl00_ctl08_ctl00_2056387{
+    top:42px!important;
+    left:290px!important;
+}
+#menu_ctl00_ctl08_ctl00_2400910{
+    top:69px!important;
+    left:290px!important;
+}
+#menu_ctl00_ctl08_ctl00_2445122{
+    top:42px!important;
+    left:552px!important;
+}
+#menu_ctl00_ctl08_ctl00_2445120{
+    top:330px!important;
+    left:552px!important;
+}
+#menu_ctl00_ctl08_ctl00_2445167{
+    top:92px!important;
+    left:552px!important;
+}
+
+.VersionAsControl{
+    padding:8px;
+    width:50%;
+    position:fixed;
+    top:0;
+    right:0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.VersionAsControl #ctl00_ctl08_cntrlImpersonateAs_lblImpersonatingAs{
+    color:#000;
+}
+
+.VersionAsControl a.pbtn.btn-s{
+    background:none;
+    background-color: #01b3f1;
+    color:#fff;
+    padding:4px 16px;
+    border-radius: 4px;
+    height:auto;
+    box-shadow: -3px -3px 9px 0 rgba(0,0,0,.25) inset;
+}
+
+.VersionAsControl a.pbtn.btn-s:hover{
+    background-color: #19cbFa;
+    box-shadow: 3px 3px 9px 0 rgba(0,0,0,.25) inset;
+}
+
+.VersionAsControl a.pbtn.btn-s span{
+    color:#fff;
+    font-weight:bold;
+}
+
+.VersionAsControl a.pbtn.btn-s .pbtn-icon.img-save{
+    display: none;
+}
+
+/*End - Global Style Rules*/
+/*##### Login Page Rules ######## (login.aspx)*/
+/*##### Defined by the class login-page-container ######*/
+table#ENUSmain.login-page-container #CtlHead{
+    margin-top:100px;
+}
+
+table#ENUSmain.login-page-container #CtlFooter{
+    display:table;
+}
+
+.login-page-container table#CtlBody{
+    margin-top:0;
+}
+
+.login-page-container #banner-image-wrapper{
+    overflow-y: hidden;
+}
+
+.login-page-container #banner-image-wrapper #login-head-cap{
+    background-color: rgba(255,255,255,.9);
+    box-shadow: 0 0 50px rgba(0,0,0,.25);
+    width:51.9%;
+    height:75px;
+    margin:50px auto 0;
+    padding:3% 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-page-container #shop-name-container{
+    width:100%;
+    
+}
+
+.login-page-container p#shop-name{    
+    font-family: SentinelLight, serif;
+    font-size:32px;
+    text-align: center;
+}
+
+.login-page-container #login-head-cap hr#orange-hilit{
+    border:1px solid #e76024;
+    color:#e76024;
+    background-color:#e76024;
+    width:25%;
+    margin:0 auto;
+}
+
+.login-page-container #CtlLogIn{
+    width:470px;
+    margin: -8px auto;
+    background-image:url(https://mymulti-craft.com/degreed/images/login-bg-tile.png);
+    background-repeat: repeat-y;
+    background-position: center top;
+    border:none;
+}
+
+.login-page-container #CtlLogIn h4{
+    display: none;
+}
+
+.login-page-container #CtlLogIn .CtlSearchGroup{
+    margin-top:8px !important;
+} 
+
+.login-page-container .CtlSearchGroup{
+    border:none;
+    background-color:transparent;
+    width:80%;
+}
+
+.login-page-container #input-wrapper{
+    width:80%;
+    margin:0 auto;
+}
+
+.login-page-container .login-label{
+    font-weight:bold;
+    font-size:16px;
+}
+
+.login-page-container .login-input{
+    font-size:16px;
+}
+
+.login-page-container .login-input input{
+    width:100%;
+    height:36px;
+    border-radius:5px;
+    border:solid 1px #ccc;
+    font-size:20px;
+}
+
+.login-page-container #username-row, #password-row{
+    margin-bottom: 24px;
+}
+
+.login-page-container #login-footer-wrapper{
+    width:470px;
+    margin:-50px auto;
+}
+
+
+
+.login-page-container div.ButtonRowClearR{
+    width:400px;
+    margin:0 auto;
+    text-align: center !important;
+}
+
+.login-page-container a#ctl00_content_Login_btnLogin{
+    background: none;
+    color:#fff;
+    font-weight:bold;
+    font-size:20px !important;
+    margin-right:150px;
+}
+
+.login-page-container a#ctl00_content_Login_btnLogin span{
+    background:none;
+    color:#fff;
+    font-weight:bold;
+    font-size:20px !important;
+    padding-left:0;
+}
+
+.login-page-container a#ctl00_content_Login_btnLogin{
+    
+    background-color: #01b3f1;
+    padding:15px 46px;
+    border-radius: 5px;
+}
+
+/*End - Login Page Rules*/
+
+/*##### Portal Home Splash Page Rules ######*/
+/*##### Defined by class: home-page-container #####*/
+
+.home-page-container table#CtlBody{
+    margin-top:0 !important;
+}
+
+.home-page-container #home-page, .home-page-container #home-page p, .home-page-container #home-page a{
+    max-width:1440px;
+    max-height:761px;
+    /*background-color:#fff;*/
+    margin:0 auto;
+    font-family: SentinelLight,serif;
+    color:#fff;
+}
+
+.home-page-container #home-page a:hover{
+    text-decoration: none;
+}
+
+.home-page-container #home-page #lp-hero-container{    
+    width:100%;
+    
+    max-width:1440px;
+    
+    background-image:url(https://mymulti-craft.com/degreed/images/landing-page-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center top;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.home-page-container #home-page #lp-hero-container #home-page-name{
+    font-size:6em;
+    margin: 0 auto;
+}
+
+.home-page-container #home-page #lp-hero-container #home-page-name p{
+    /*text-shadow: 0px 0px 3px #000;*/
+}
+
+#lp-nav-container{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+
+div.lp-nav{
+    width:50%;
+    /*height:auto;
+    padding-left:32px;
+    padding-top:16px;
+    padding-right: 132px;*/
+    line-height: 3em;
+}
+div.lp-nav#nav-box-left{
+    background-color:#01b3f1;
+    
+}
+div.lp-nav#nav-box-right{
+    background-color:#1a72b1;
+}
+
+.home-page-container #home-page .lp-nav p{
+    font-size:22px;
+}
+
+.home-page-container #home-page .lp-nav p.lp-nav-links{
+    font-size:3.25em;
+    padding-top:40px;
+    padding-left:32px;
+}
+
+/*End - Portal Home Splash Page Rules*/
+/*1234567890 Catalog Page Rules 0987654321*/
+/*1234567890 Defined by class: catalog-page-container 0987654321*/
+.catalog-page-container #CtlBody .gridRow4Cols, .catalog-page-container #CtlBody .gridRow3Cols, .catalog-page-container #CtlBody .gridRow2Cols{
+    width:100% !important;
+    margin:15px auto 0;
+    float:none;
+}
+
+/*.catalog-page-container #CtlBody .gridRow2Cols, .catalog-page-container #CtlBody .gridRow3Cols,.catalog-page-container #CtlBody .gridRow4Cols, .catalog-page-container #CtlBody .gridRow5Cols, .catalog-page-container #CtlBody .gridRow6Cols*/.catalog-page-container #CtlBody [class*="gridRow"]{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.catalog-page-container #CtlBody .gridItem{
+    background: transparent;
+    float:none;
+    display: inline-block;
+}
+
+.catalog-page-container #CtlBody .gridItem.pti-cc-folderGridItem{
+    margin:0 50px;
+}
+
+.catalog-page-container #CtlBody .gridItem.pti-cc-productGridItem{
+    margin: 0 25px;
+    width:250px;
+}
+
+.catalog-page-container #CtlBody .gridItem.pti-cc-productGridItem .gridItemImageTable{
+    margin-bottom: 15px;
+}
+
+.catalog-page-container #CtlBody .gridItem.pti-cc-productGridItem .gridItem_title{
+    width:66.66% !important;
+}
+    .catalog-page-container #CtlBody .gridItem.pti-cc-productGridItem .gridItem_title a.gridItem_title_ellipsis{
+        font-size:14px;
+        color:#000;
+}
+
+.catalog-page-container #CtlBody .gridItem.pti-cc-productGridItem .gridItem_action{
+    width:33.33% !important;
+}
+
+.catalog-page-container #CtlBody .gridItem.pti-cc-productGridItem .gridItem_action .gridItem_action_container{
+    width:100% !important;
+}
+
+.catalog-page-container #CtlBody .gridItem.pti-cc-productGridItem div{
+    float:left;
+}
+
+.catalog-page-container #CtlBody .gridItem.pti-cc-folderGridItem .gridItem_title span.ellipsis_text{
+    /*display: none;*/
+}
+
+.catalog-page-container #CtlBody .gridItemImageCell{
+    border:none;
+}
+
+.catalog-page-container #CtlBody input.gridItem_thumb{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.25);
+    max-width:250px;
+    max-height:250px;
+}
+
+.catalog-page-container #CtlBody input.gridItem_thumb.screenshot.SampleImage
+    
+    max-width:250px;
+    max-height:250px;
+}
+
+
+
+.catalog-page-container #CtlBody a.pbtn.btn-s.btnAddToCart.gridActionButton.ButtonQuickOrderAddToCart, .catalog-page-container #CtlBody a.pbtn.btn-s.btnAddToCart.gridActionButton.ButtonQuickOrderAddToCart span, .catalog-page-container #CtlBody a.pbtn.btn-s.pbtn-icon-after-wrapper.ButtonQuickOrderDetails, .catalog-page-container #CtlBody a.pbtn.btn-s.pbtn-icon-after-wrapper.ButtonQuickOrderDetails span{
+    background:none;
+    color:#fff;
+    font-size: 14px;
+}
+
+.catalog-page-container #CtlBody a.pbtn.btn-s.btnAddToCart.gridActionButton.ButtonQuickOrderAddToCart:hover, .catalog-page-container #CtlBody a.pbtn.btn-s.btnAddToCart.gridActionButton.ButtonQuickOrderAddToCart span, .catalog-page-container #CtlBody a.pbtn.btn-s.pbtn-icon-after-wrapper.ButtonQuickOrderDetails:hover, .catalog-page-container #CtlBody a.pbtn.btn-s.pbtn-icon-after-wrapper.ButtonQuickOrderDetails span{
+    background-color:transparent;
+}
+
+.catalog-page-container #CtlBody .pbtn-icon.img-plus{
+    display:none;
+}
+
+.catalog-page-container #CtlBody a.pbtn.btn-s.btnAddToCart.gridActionButton.ButtonQuickOrderAddToCart,.catalog-page-container #CtlBody a.pbtn.btn-s.pbtn-icon-after-wrapper.ButtonQuickOrderDetails{
+    font-weight:bold;
+    background-color: #01b3f1;
+    padding:8px 16px;
+    border-radius:5px;
+    
+}
+
+.catalog-page-container #CtlBody a.pbtn.btn-s.btnAddToCart.gridActionButton.ButtonQuickOrderAddToCart span,.catalog-page-container #CtlBody a.pbtn.btn-s.pbtn-icon-after-wrapper.ButtonQuickOrderDetails span{
+    padding-left: 0;
+}
+
+.catalog-page-container .pti-cc-folderGridItem .gridItem_title_ellipsis{
+  display:none;
+}
+
+/*End - Catalog Page Rules*/
+/*abcdefghijk Subcategory/Productlisting Page Rules lmnopqrstuvwxyz*/
+
+
+
+/*End - Subcategory/Productlisting Page Rules*/
+/*qwertyuiop Product Page Rules asdfghjkl*/
+/*abcdefghijk Defined by class: product-page-container lmnopqrstuvwxyz*/
+.product-page-container #CtlBody #CtlCart{
+    width:75%;
+    margin:0 auto;
+}
+
+.product-page-container #CtlBody #CtlCart #productTitle{
+    font-size:26px;
+    color:#1a72b1;
+    font-family: WhitneyBold;
+}
+
+.product-page-container #CtlBody #CtlCart{
+    box-shadow:0 0 15px rgba(0,0,0,.25);
+    background-color:#fff;
+}
+
+[id*=ctl00_content_CtlAddToCart_SkuPrototypeSelection_mSkuList]{
+    font-size:14px;
+}
+
+.product-page-container #CtlBody #CtlCart .ColorPromptText, .product-page-container #CtlBody #CtlCart .BluePromptText, .product-page-container #CtlBody #CtlCart .QuickFillPrompt{
+    border-bottom:none;
+}
+
+#ctl00_content_CtlAddToCart_mHeaderNote_lblProductHeaderNote, #ctl00_content_CtlAddToCart_SkuPrototypeSelection_mSkuList_ctl00_lblChooseVersion, #ctl00_content_CtlAddToCart_ProductOrderInfoController_mHeaderNote_lblOrderInfoHeaderNote{
+    color:#e76024;
+}
+
+.product-page-container #CtlBody #CtlCart #divPricingGridContainer{
+    min-width:150px;
+    width:auto;
+    background-color: #f8f8f9;
+    border-radius:5px;
+    border:1px solid #eee;
+    max-width:75%;
+}
+
+.product-page-container #CtlBody #CtlCart #divPricingGridContainer{
+    margin-top:25px;
+    padding:16px;
+}
+
+.product-page-container #CtlBody #CtlCart #divPricingGridContainer table{
+    width:100%;
+    border:none;
+    margin-bottom:15px;
+}
+
+.product-page-container #CtlBody #CtlCart #divPricingGridContainer table .GridPrice td{
+    border:none;
+     text-align:left !important;
+     font-size:14px;
+    padding-top:8px;
+}
+
+.product-page-container #CtlBody #CtlCart #divPricingGridContainer table .GridPrice td.header{
+    
+}
+
+.product-page-container #CtlBody #CtlCart .Reports.Width100Pct{
+    width:66.66%;
+}
+
+.product-page-container #CtlBody #CtlCart .Reports.AlignCenter{
+    width:33.33%;
+}
+
+
+.product-page-container #CtlBody #CtlCart .TnProd{
+    border-radius:12px;
+    overflow: hidden;
+    margin: 12px 24px;
+}
+
+.product-page-container #CtlBody #CtlCart .TnProd a, .product-page-container #CtlBody #CtlCart .TnProd img{
+    width:100% !important;
+}
+
+.product-page-container #CtlBody #CtlCart #ctl00_content_CtlAddToCart_ProductOrderInfoController_AddToCartActionBox_mAddToCartAction_btnAddToCart, .product-page-container #CtlBody #CtlCart #ctl00_content_CtlAddToCart_ProductOrderInfoController_AddToCartActionBox_mAddToCartAction_btnAddToCart span{
+    background:none;
+}
+
+.product-page-container #CtlBody #CtlCart #ctl00_content_CtlAddToCart_ProductOrderInfoController_AddToCartActionBox_mAddToCartAction_btnAddToCart span{
+    padding:0;
+}
+.product-page-container #CtlBody #CtlCart #ctl00_content_CtlAddToCart_ProductOrderInfoController_AddToCartActionBox_mAddToCartAction_btnAddToCart .pbtn-icon.img-plus{
+    display: none;
+}
+
+.product-page-container #CtlBody #CtlCart #ctl00_content_CtlAddToCart_ProductOrderInfoController_AddToCartActionBox_mAddToCartAction_btnAddToCart{
+    background-color:#01b3f1;
+    padding:8px 52px;
+    font-size:16px !important;
+    border-radius:5px;
+}
+
+.product-page-container #CtlBody #CtlCart .ContentBoxGrey#Table5{
+    border:0;
+    background:none;
+}
+
+.product-page-container #CtlBody #CtlCart #ctl00_content_CtlAddToCart_ProductOrderInfoController_AddToCartActionBox_mItemQuantity_lblQty{
+    font-size:16px;
+    font-weight:bold;
+    margin-right:55px;
+    margin-left:14px
+}
+
+.product-page-container #CtlBody #CtlCart #ctl00_content_CtlAddToCart_ProductOrderInfoController_AddToCartActionBox_mItemQuantity_panelQty input{
+    border-radius:5px;
+    border:1px solid #ddd;
+    font-size:16px;
+    padding:5px;
+    text-align:center;
+    height:22px;
+    
+}
+
+/*End - Product Page Rules*/
+/*zxcvbnm Shopping Cart Page Rules mnbvcxz*/
+/*zxcvbnm Defined by .shopping-page-container mnbvcxz*/
+.shopping-page-container #CtlCart.ContentBoxLarge tbody tr td{
+    background-color:#fff;
+}
+
+.shopping-page-container #divMainContent{
+    width:75%;
+    margin:0 auto;
+}
+
+.shopping-page-container #CtlCart.ContentBoxLarge thead tr td, .shopping-page-container #CtlCart thead #divSearchCart{
+    background-color: #1a72b1;
+}
+
+.shopping-page-container #CtlCart thead #divSearchCart td{
+    color:#fff;
+    font-size:14px;
+    background-color:transparent;
+}
+
+.shopping-page-container #CtlCart thead #divSearchCart #ctl00_content_CurrentCart_ddlSearchBy{
+    height: 22px;
+    border: none;
+    border-radius: 4px;
+    width: 116px;
+    font-size: 14px;
+    margin-right:8px;
+}
+
+.shopping-page-container #CtlCart thead #divSearchCart #ctl00_content_CurrentCart_txtSearchText{
+    height: 22px;
+    border: none;
+    border-radius: 4px;
+    width: 116px !important;
+    font-size: 14px !important;
+    margin-right: 8px;
+    padding-left: 4px;
+}
+
+#ctl00_content_CurrentCart_btnSearch,#ctl00_content_CurrentCart_btnSearch span{
+    background:none;
+}
+
+.shopping-page-container #CtlCart thead #divSearchCart #ctl00_content_CurrentCart_btnSearch,#ctl00_content_CurrentCart_btnSearch{
+    height: 22px;
+    border: none;
+    border-radius: 4px;
+    width: 116px !important;
+    font-size: 14px !important;
+    margin-right: 8px;
+    padding-left: 4px;
+    background-color:#01b3f1;
+    color:#fff;
+}
+
+.shopping-page-container #CtlCart thead #divSearchCart #ctl00_content_CurrentCart_btnSearch,#ctl00_content_CurrentCart_btnSearch span{
+    font-size:14px !important;
+    color:#fff !important;
+}
+
+.shopping-page-container #CtlCart thead #ctl00_content_CurrentCart_divCartTabs{
+    background-color:#1a72b1;
+    position:absolute;
+    top:242px;
+}
+
+.shopping-page-container #CtlCart thead #ctl00_content_CurrentCart_divCartTabs .CartTab.CartTabActive{
+    background-color: #fff;
+}
+
+.shopping-page-container #CtlCart thead #ctl00_content_CurrentCart_divCartTabs .CartTab.CartTabInactive{
+    background-color: #ddd;
+}
+
+.shopping-page-container #CtlCart thead #ctl00_content_CurrentCart_divCartTabs .Switch{
+    margin-bottom:0;
+    border-top:0;
+    
+}
+
+.shopping-page-container #CtlCart thead #ctl00_content_CurrentCart_divCartTabs .Spacer{
+    border-bottom:0;
+}
+
+.shopping-page-container #CtlCart tbody .CtlGridTable3{
+    border-top:1px solid #1a72b1;
+    border-left:none;
+    border-right:none;
+    border-bottom: none;
+}
+
+
+.shopping-page-container #CtlCart tbody .GridRowWhite td{
+    height:46px;
+    padding-top:2%;
+    font-size:18px;
+}
+
+a[id*="ctl00_content_CurrentCart_CtlCartItemList_CtlCartItems"]{
+    color:#1a72b1;
+    font-weight:bold;
+}
+
+.shopping-page-container #CtlCart tbody .GridRowWhite td .Font14, .shopping-page-container #CtlCart tbody .GridRowGrey td .Font14, [id*="ctl00_content_CurrentCart_CtlCartItemList_CtlCartItems"]{
+    font-size:18px;
+}
+
+.shopping-page-container #CtlCart tbody .GridRowWhite td, .shopping-page-container #CtlCart tbody .GridRowGrey td{
+    font-weight:400;
+}
+
+.shopping-page-container #CtlCart input.qty{
+    font-size: 16px;
+    height:24px;
+    border-radius:4px;
+    border:1px solid #ddd;
+    text-align: center;
+}
+
+.shopping-page-container #CtlCart tbody tr td table tr{
+    /*background-color:aquamarine;*/
+}
+
+td.CartPrice span, span#ctl00_content_CurrentCart_CtlTotals_lblSubtotal{
+    color: #1a72b1;
+    font-weight:bold;
+    font-size: 18px;
+}
+
+a.pbtn.btn-s, a.pbtn.btn-s span, .pbtn.btn-l.btn-l-green, .pbtn.btn-l.btn-l-green span{
+    background:none;
+    height:auto;
+}
+
+.pbtn.btn-l.btn-l-green span{
+    padding-left: 0;
+}
+
+a.pbtn.btn-s span{
+     padding-left:0;
+}
+
+a[value="btnUpdate"],[value="btnRemoveItems"]{
+    padding:8px 16px;
+    border-radius:8px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+span.pbtn-icon.img-cancel, span.pbtn-icon.img-refresh{
+    display: none;
+}
+a[value="btnUpdate"]{
+    color:#7ed321;
+    background-color:rgba(126,211,33,.2) !important;
+    border-color:#7ed321;
+}
+a[value="btnUpdate"], a[value="btnRemoveItems"]{
+    font-size:1.25em !important;
+    font-weight:bold;
+}
+
+a[value="btnRemoveItems"]{
+    color:#F95500;
+    border-color: #F95500;
+    background-color:rgba(249,85,0,.2) !important;
+}
+
+a.pbtn.btn-l.btn-l-green{
+    background-color:#01b3f1;
+    padding:8px 16px;
+    border-radius:8px;
+}
+
+.shopping-page-container a#ctl00_content_CurrentCart_btnSaveCart{
+    background-image:none;
+    background-color: #01b3f1;
+    color:#fff;
+    padding:7.2px 16px;
+    border-radius: 8px;
+}
+
+/*End - Shopping Cart Page Rules*/
+/*Shipping page Rules*/
+/*defined by: .shipping-page-container*/
+.shipping-page-container a#ctl00_content_CartShipping_btnBack{
+    background:none;
+    background-color: #01b3f1;
+    color:#fff;
+    padding:8px 16px;
+    border-radius: 8px;
+    height:auto;
+}
+
+/*End - Shipping Page Rules*/
+/*Shipping page Rules*/
+/*defined by: .shipping-page-container*/
+.shipping-page-container{}
+/*End - Shipping Page Rules*/
+
+/*Category Search page Rules*/
+/*defined by: .cat-search-page-container*/
+.cat-search-page-container{}
+/*End - Shipping Page Rules*/
+
+/*Category Search page Rules*/
+/*defined by: .cat-search-page-container*/
+.cat-search-page-container{}
+/*End - Category Search Page Rules*/
+
+/*Save Cart page Rules*/
+/*defined by: .save-cart-page-container*/
+.save-cart-page-container{}
+/*End - Save Cart Page Rules*/
+
+/*Billing page Rules*/
+/*defined by: .billing-page-container*/
+.billing-page-container{}
+/*End - Billing Page Rules*/
+
+/*Billing Purchase Order page Rules*/
+/*defined by: .billing-po-page-container*/
+.billing-po-page-container{}
+/*End - Billing Purchase Order Page Rules*/
+
+/*Billing Credit Card page Rules*/
+/*defined by: .billing-cc-page-container*/
+.billing-cc-page-container{}
+/*End - Billing Credit Card Page Rules*/
+
+/*Confirm Order page Rules*/
+/*defined by: .confirm-order-page-container*/
+.confirm-order-page-container{}
+/*End - Confirm Order Rules*/
+
+/*Order Summary page Rules*/
+/*defined by: .order-sum-page-container*/
+.order-sum-page-container{}
+/*End - Shipping Page Rules*/
+
+/*Order Manager page Rules*/
+/*defined by: .order-mgr-page-container (/manageOrders.aspx)*/
+.order-mgr-page-container{}
+
+.order-mgr-page-container #CtlBody .CtlSearchGroup{
+    margin:0;
+}
+/*End - Order Manager Page Rules*/
+
+/*Reports page Rules*/
+/*defined by: .reports-page-container*/
+.reports-page-container{}
+/*End - Reports Page Rules*/
+
+/*Self Register page Rules*/
+/*defined by: .self-reg-page-container*/
+.self-reg-page-container{}
+/*End - Self Register Page Rules*/
+
+/*Error page Rules*/
+/*defined by: .err-page-container*/
+.err-page-container{}
+/*End - Error Page Rules*/
+
+/*Impersonate User Page Rules*/
+/*defined by: .impersonate-page-container*/
+.impersonate-page-container{}
+
+.impersonate-page-container a.pbtn.btn-s{
+    background:none;
+    background-color: #01b3f1;
+    color:#fff;
+    padding:4px 16px;
+    border-radius: 4px;
+    height:auto;
+    box-shadow: -3px -3px 9px 0 rgba(0,0,0,.25) inset;
+}
+
+.impersonate-page-container a.pbtn.btn-s:hover{
+    background-color: #19cbFa;
+    box-shadow: 3px 3px 9px 0 rgba(0,0,0,.25) inset;
+}
+
+.impersonate-page-container a.pbtn.btn-s span{
+    color:#fff;
+    font-weight:bold;
+}
+
+.impersonate-page-container a.pbtn.btn-s .pbtn-icon.img-save{
+    display: none;
+}
+
+.impersonate-page-container .GridCell{
+    vertical-align: middle;
+    color: #000;
+    font-weight: bold;
+    font-size: 1em;
+}
+
